@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	font-family: 'Poppins', sans-serif; font-size: 13px; color: #848484; margin: 0; background-color: white
+}
+.top-bar{
+	width: 100%; height: 50px; background-color: black; color: white; line-height: 50px
+}
+.top-bar a{
+	color: white;
+}
+.top-bar a:hover{
+	color: #848484
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius: 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: white; background-color: black
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: black; padding-bottom: 0; padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item{
+	color: white; transition: all 1s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover{
+	background-color: #3D3C3C; padding-left: 30px;
+}
+main{
+	width: 100%; min-height: 500px
+}
+.btn-secondary{
+	background-color: black; color: white
+}
+.btn-secondary:hover{
+	background-color: #848484
+}
+.gach-chan{
+	border-bottom: 2px solid white
+}
+footer{
+	background-color: black
+}
+footer .navbar-nav .nav-item .nav-link{
+	
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #848484
+}
+.bottom-bar{
+	width: 100%; height: 50px; line-height: 50px
+}
+#banner{
+	width: 100%; min-height: 300px; background: url("../img/pageheader.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
+#why{
+	width: 100%; min-height: 400px; background: url("../img/why.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
+.btn-submit{
+	background-color: black; color: white
+}
+.btn-submit:hover{
+	background-color: black
+}
